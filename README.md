@@ -178,3 +178,22 @@ Smart-Factory-SQL/
 ├── 06_maintenance_analysis.sql
 ├── 07_machine_health_report.sql
 └── README.md
+## Project Results
+
+### Machine Overview
+
+The database contains information about the machines operating in the simulated factory.
+
+![Machine Overview](screenshots/01_machine_overview.png)
+
+### Production Analysis
+
+The production analysis compares total production, defective units and defect rates across machines.
+
+![Production Analysis](screenshots/02_production_analysis.png)
+
+### Machine Health Report
+
+The final report combines sensor, production and maintenance data to classify machines as Healthy, Warning or Critical.
+
+![Machine Health Report](screenshots/03_machine_health_report.png)
